@@ -11,8 +11,10 @@ public class GameBoard {
     /**
      *
      */
-    public GameBoard()
-    {
+    public GameBoard() {
+
+
+
         fieldArray = new Field[24];
 
 

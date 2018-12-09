@@ -3,7 +3,7 @@ package Entity;
 import Boundary.GameBoard;
 import Controller.Controller;
 
-import java.util.Scanner;
+// import java.util.Scanner;
 
 //Initializes the game and contains the game loop.
 public class Game {
@@ -13,7 +13,7 @@ public class Game {
         int numPlayers = 0;
         Player[] playerArray;
 
-        Scanner scanner = new Scanner(System.in);
+        // Scanner scanner = new Scanner(System.in);
 
 
         Controller controller = new Controller(numPlayers);
