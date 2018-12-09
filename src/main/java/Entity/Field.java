@@ -95,7 +95,7 @@ public class Field {
 
     /**
      *
-     * @return
+     * @return the price
      */
 
     public int getPrice()

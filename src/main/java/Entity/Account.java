@@ -3,11 +3,14 @@ package Entity;
 //The Account class keeps track of a players money.
 
 /**
+ *  Det er en Account class
  *
  */
 public class Account{
 
-    //int for amount of money in account
+    /**
+     * int for amount of money in account
+     */
     private int money = 0;
 
     /**
@@ -31,4 +34,14 @@ public class Account{
         return money;
     }
 
+    /**
+     *
+     * @return
+     */
+    @Override
+    public String toString() {
+        return "Account{" +
+                "money=" + money +
+                '}';
+    }
 }

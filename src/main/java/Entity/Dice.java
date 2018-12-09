@@ -8,7 +8,7 @@ public class Dice {
     //constructor to choose the amount of sides of the die
 
     /**
-     *
+     * this is constructor
      * @param sides
      */
     public Dice(int sides){
@@ -18,7 +18,7 @@ public class Dice {
     // roll the die and return the value (1-6)
 
     /**
-     *
+     * This is a method that roll the dice
      * @return
      */
     public int roll() {
